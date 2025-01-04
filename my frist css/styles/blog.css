@@ -1,0 +1,38 @@
+h3{ margin:40px;
+    font-size:40px;
+    text-decoration: overline;
+    background-color: rgb(99, 59, 12);
+    box-shadow :50px 10px 10px;
+    font-family:'Courier New', Courier, monospace
+}
+.abn{
+    /* display: none; */
+    /* visibility: hidden; */
+
+
+}
+.nnn{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.ddd{
+    /* visibility: */
+
+}
+.blogs{
+    margin: 40px;
+    border:violet;
+    box-shadow:20px 30px;
+
+}
+.header{
+    height:400px;
+    /* background-image: url('DSC01216.JPG'); */
+    background-size:cover;
+    background-image: url(../hhhpp.JPG);
+    
+
+
+   
+    
+}
