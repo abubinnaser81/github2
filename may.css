@@ -6,3 +6,13 @@ p{
     font-size:10px;
     background-color:bisque;
 }
+header{
+    /* font-size:60px; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: 10px;
+
+}
+img{
+    width: 50px;px;
+    height: 50px;
+}
