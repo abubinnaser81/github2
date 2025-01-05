@@ -2,6 +2,7 @@ p{
     background-color: beige;
     padding: 10px 10px 10px 10px;
     margin: 30px 30px 30px 30px;
+border-radius: 10px ridge;
 }
  .this{
 
@@ -18,4 +19,13 @@ header{
 img{
     width: 55px;
     height: 50px;
+}
+.ttt{
+    color: 30px red;
+    text-align: justify;
+}
+input[type =password]{
+    font-size: 50px;
+    border-color: red;
+    color:blueviolet;
 }
