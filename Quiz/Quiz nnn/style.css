@@ -187,3 +187,23 @@ margin: 20px 0;
 .title{
     margin-bottom: 20px;
 }
+.ttt{
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    /* padding: 20px 0; */
+}
+
+.quation .ttt p{
+    padding-top: 27px;
+}
+.quation{
+
+    padding: 48px 24px;
+    background: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+
+.mt20{
+    margin-top: 20px;
+}
