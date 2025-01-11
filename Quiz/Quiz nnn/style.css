@@ -73,12 +73,12 @@ margin: 20px 0;
 }
 .hero-section{
     background-color: #C6E4D6;
-    padding: 30px;
+    padding: 25px;
     border-radius: 15px;
 }
 .button{
 
-padding: 17px 34px;
+padding: 17px 30px;
 background: #006A50;
 border-radius: 8px;
 color: white;
@@ -206,4 +206,181 @@ margin: 20px 0;
 
 .mt20{
     margin-top: 20px;
+}
+
+.opsContainer .flexItem .left{
+    padding: 15px;
+    flex: 1;
+
+}
+.opsContainer .flexItem.top{
+    background-color: #C6E4D6;
+}
+.opsContainer .flexItem.top .right{
+    border: none;
+}
+.opsContainer .flexItem .right{
+    padding: 15px;
+    border-left: 1px solid #0e0e0e5c;
+    flex: 0 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.opsContainer .flexItem .right select{
+    padding: 9px;
+    background-color: #C6E4D6;
+    border-radius: 5px;
+}
+.opsContainer .flexItem{
+    display: flex;
+    border: 1px solid #0e0e0e5c;
+    align-items: center;
+    justify-content: space-between;
+}
+.opsContainer .flexItem:not(:last-child){
+
+    border-bottom: none;
+}
+.opsContainer{
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.ops h5{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 50px 0 20px;
+}
+.news{
+    display: flex;
+    justify-content: space-between;
+}
+.micro{
+    margin-top: 40px;
+}
+.micro h5{
+    margin-top: 20px;
+    padding: 10px;
+}  
+.micro p{
+margin: 20px 0 15px;
+font-size: 16px;
+color: rgba(14, 14, 14, 0.7);
+
+}
+.news .left{
+    display:flex;
+    border-radius: solid 10px;
+    padding: 15px;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+
+.news .thh{
+    border-radius: 24px;
+    
+}
+.news .right{
+    /* display:flex; */
+    /* border-radius: solid 10px; */
+    /* padding: 15px; */
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.news{
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 40px 0;
+}
+.text-center{
+    text-align: center;
+}
+.w-50{
+    width: 50%;
+    margin: auto;
+}
+
+.dflex .item:hover{
+    background-color: #C6E4D6;
+}
+.dflex .item{
+    transition: all 0.5s ease;
+    background-color: #fff;
+    max-width: 240px;
+    flex: 1 0 25%;
+    padding: 20px ;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+}
+.dflex{
+    margin: 20px 0;
+    gap: 20px;
+    display: flex;
+    justify-content:center;
+}
+.donate input{
+    width: 70%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+.donate h2{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+p{
+    color: rgba(14, 14, 14, 0.5);
+}
+.Subscribe p{
+    margin: 16px 0;
+}
+.Subscribe{
+    background-color: #C6E4D6;
+    margin: 50px 0;
+    padding: 80px 25%;
+    border-radius: 20px;
+    text-align: center;
+}
+.w-50{
+    width: 50%;
+    margin: auto;
+}
+.dflex1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dflex1 input{
+    width: 80%;
+    flex: 1 0 80%;
+    background-color: #fff;
+    padding: 10px 10px ;
+    outline: none !important;
+    border: 1px solid #eee;
+    border-radius: 5px 0 0 5px;
+    height: 56px;
+}
+.dflex1 button{
+    width: 20%;
+    flex: 1 0 20%;
+    height: 56px;
+    border-radius: 0 5px 5px 0;
 }
